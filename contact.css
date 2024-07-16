@@ -1,0 +1,78 @@
+header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 60px;
+    width: 85%;
+
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0px 5px 8px rgba(255, 255, 255, 0.564);
+}
+
+main {
+    height: fit-content;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.platform {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 24%;
+}
+
+.pfmname {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 60px;
+    width: auto;
+    font-size: 40px;
+
+}
+
+
+.pfmimg {
+    height: 200px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 20px;
+}.pfmimg img{
+    height: 100%;
+    width: 100%;
+}
+.pfminfo{
+   height: 200px;
+   width: 80%;
+   margin: 0px auto;
+   margin-bottom: 20px;
+}
+
+.pfmlink {
+    display: flex;
+    height: 60px;
+    width: 100%;
+}
+
+button {
+    height: 50px;
+    width: 50%;
+    margin: 0px auto;
+    font-size: larger;
+}

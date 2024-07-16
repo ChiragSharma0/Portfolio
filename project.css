@@ -1,0 +1,143 @@
+
+body {
+  background-color: rgb(0, 0, 0);
+  min-height: 100%;
+  min-width: 100%;
+  color: white;
+}
+
+header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+
+  margin-left: 100px;
+  margin-top: 20px;
+  height: 60px;
+  width: 85%;
+
+  background-color: white;
+  border-radius: 35px;
+  box-shadow: 0px 5px 8px rgba(255, 255, 255, 0.564);
+}
+
+
+
+.navbar {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+  margin-right: 20px;
+}
+
+
+main {
+  height: auto;
+}
+
+.project-page {
+  background-color: rgb(8, 8, 8);
+  min-height: 140vh;
+  display: flex;
+}
+
+.project-page-content {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projecttext1 {
+  display: flex;
+  margin-top: 140px;
+
+  align-items: baseline;
+  justify-content: center;
+  font-family: 'poppins-semibold', 'Poppins';
+  font-size: 35px;
+
+}
+
+.projecttext2 {
+
+  margin-bottom: 80px;
+  padding: 50px;
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Abel', 'Abel-thin';
+  font-weight: 500;
+}
+
+.project-card {
+  display: flex;
+  height: 404px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+
+  color: black;
+  background-color: white;
+  box-shadow: -5px 10px 15px rgba(255, 255, 255, 0.805);
+  /* Adjust values as needed */
+}
+
+.boxtext {
+  margin-top: 60px;
+  width: 60%;
+}
+
+.tittlebox {
+  display: flex;
+
+}
+
+.title {
+  margin-left: 30px;
+}
+
+#p1 {
+  font-family: 'poppins-semibold', 'Poppins';
+  font-size: 20px;
+  color: blue;
+  font-weight: 600;
+}
+
+.rect {
+  display: flex;
+  height: 50px;
+  width: 10px;
+  margin-right: 5px;
+  background-color: rgb(0, 80, 255);
+}
+
+.projecttext3 {
+  margin-top: 40px;
+  padding: 20px;
+  padding-left: 40px;
+  font-size: 17px;
+  font-family: 'Abel', 'Abel-thin';
+
+}
+
+.boximg img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*               footer                 */
